@@ -1,1 +1,1 @@
-docker build --tag jenkins-danger --force-rm .
+docker build --tag jenkins-danger --force-rm --build-arg DANGER_GITHUB_API_TOKEN=$DANGER_GITHUB_API_TOKEN .
